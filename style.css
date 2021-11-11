@@ -13,7 +13,7 @@
 header{
   display: flex;
   justify-content: space-evenly;
-  background: yellow;
+  background: rgb(42, 187, 206);
   width: 100%;
 }
 ul{
@@ -21,12 +21,13 @@ ul{
   justify-content: space-between;
   align-items: center;
   height: 20vh;
-  width: 70vw;
+  width: 30vw;
+  
 }
 a{
    text-decoration:none;
-   color: red;
-   text-transform: uppercase;
+   color:white;
+   text-transform: capitalize;
 }
 .container-main{
   display: flex;
@@ -36,23 +37,23 @@ a{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 50vw;
-  height: 50vw;
+  width: 120vw;
+  height: 60vw;
 }
 .container-figure img{
-  width: 10vw;
-  border-radius: 50%;
+  width: 20vw;
 }
 .container-content img{
-  width: 50vw;
+  width: 70vw;
 }
 .box-news{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: yellow;
+  background: rgb(42, 187, 206);
   height: 10vh;
   text-transform: uppercase;
+  color:white;
 }
 .container-about{
   display: flex;
@@ -61,5 +62,7 @@ a{
   width: 50vw;
 }
 footer{
-  background: yellow;
+  background: rgb(42, 187, 206);
+
+  
 }
